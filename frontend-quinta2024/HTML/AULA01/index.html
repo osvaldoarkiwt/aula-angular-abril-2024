@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1142/1142705.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Hello World</h1>
+    <h4 id="topo">Aprendendo html 5</h4>
+    <p>Melhores bandas musicais</p>
+    <ol>
+        <li>
+            <p>Foo Fighters</p>
+        </li>
+        <li>
+            <p>Red Hot Chilli Peppers</p>
+        </li>
+        <li>
+            <p>Noda de Cajú</p>
+        </li>
+        <li>
+            <p>Magníficos</p>
+        </li>
+        <li>
+            <p>Queen</p>
+        </li>
+    </ol>
+    <p>
+        Melhores jogos de vídeo game
+    </p>
+    <ul type="circle">
+        <li>
+            <p><a href="https://www.ea.com/pt-br/games/burnout" target="_blank">Burnout</a></p>
+        </li>
+        <li>
+            <p><a href="https://www.playstation.com/pt-br/games/final-fantasy-vii-rebirth/">Final Fantasy VII</a></p>
+        </li>
+        <li>
+            <p>
+                <a href="https://www.mortalkombat.com/pt-br">
+                    Mortal Kombat
+                </a>
+            </p>
+        </li>
+        <li>
+            <p>Endure</p>
+        </li>
+        <li>
+            <p>Resident Evil</p>
+        </li>
+    </ul>
+    <p>
+       <span> Lorem ipsum dolor sit amet, </span>consectetur adipisicing elit. Numquam suscipit saepe soluta dignissimos, voluptatibus distinctio ipsa nulla rem tempora fugit, ut nam voluptates nemo expedita neque. Rem dignissimos aliquid expedita.
+    </p>
+    <p>
+        <b>Eum doloribus autem</b> facilis itaque <mark> quod quasi </mark>omnis nemo et ab. <u>Debitis tenetur obcaecati</u> exercitationem enim molestiae, error, <i>est, molestias</i> cupiditate expedita consectetur fuga voluptatibus veniam quaerat dicta voluptas id?
+    </p>
+    <p>
+        Ullam assumenda aliquam officia. Fuga suscipit modi ex nam totam repellendus quibusdam laudantium libero quisquam! Dolores nostrum, repellendus rem dolorum maiores delectus! Expedita temporibus deserunt asperiores commodi rem quam quia?
+    </p>
+    <p>
+        <strong>Nostrum aspernatur</strong> adipisci harum provident quaerat, doloremque accusantium cumque vitae similique optio accusamus <em>explicabo, exercitationem </em>quae minus quibusdam aliquid veritatis velit! Minima consequuntur officiis eligendi molestiae rerum neque dolore cumque!
+    </p>
+
+    <p>
+        <pre>
+        public class ConnectionFactory {
+            private static DataSource dataSource = null;
+        
+            private ConnectionFactory() {
+            }
+        
+            public static Connection getConnection() throws SQLException {
+                if (dataSource == null) {
+                    final ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource();
+                    comboPooledDataSource.setJdbcUrl("jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC");
+                    comboPooledDataSource.setUser("root");
+                    comboPooledDataSource.setPassword("123456");
+        
+                    // Setando o número máximo de conexões
+                    comboPooledDataSource.setMaxPoolSize(15);
+                    dataSource = comboPooledDataSource;
+                }
+                return dataSource.getConnection();
+            }
+        }
+    </pre>
+    </p>
+
+    <p>
+        6,02*10<sup>23</sup>
+        <br/>
+        ácido sulfúrico = H<sub>2</sub>SO<sub>4</sub>
+    </p>
+    <a href="#topo">ir para o topo da página</a>
+</body>
+</html>
