@@ -1,0 +1,80 @@
+.container{
+    width: 100vw;
+    height:100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.geral{
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav{
+    background-color: blueviolet;
+    width: 92%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,1);
+}
+
+header{
+    background-color: darkgreen;
+    width: 80%;
+    height: 130px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,1);
+}
+.painel{
+    width: 100%;
+}
+
+main{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:15px;
+    flex-wrap: wrap;
+}
+
+.primeiro{
+    background-color: steelblue;
+    width: 45%;
+    height: 160px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,1);
+}
+
+.segundo{
+    background-color: cyan;
+    width: 45%;
+    height: 160px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,1);
+}
+
+aside{
+    background-color: salmon;
+    width: 20%;
+    height: 290px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,1);
+}
+
+footer{
+    background-color: darkred;
+    width: 92%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,1);
+}

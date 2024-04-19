@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    gap:15px;
+    padding:15px;
+    grid-template-rows: 10vh 35vh 35vh 10vh;
+    grid-template-columns: 35vw 35vw 20vw;
+    background-color: black;
+}
+
+nav{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: blueviolet;
+}
+
+header{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: yellowgreen;
+}
+
+aside{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: salmon;
+}
+
+.primeiro{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: turquoise;
+}
+
+.segundo{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: turquoise;
+}
+
+footer{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: royalblue;
+}
