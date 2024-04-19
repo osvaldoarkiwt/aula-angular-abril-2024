@@ -2,8 +2,8 @@
     display: grid;
     gap:15px;
     padding:15px;
-    grid-template-rows: 10vh 35vh 35vh 10vh;
-    grid-template-columns: 35vw 35vw 20vw;
+    grid-template-rows: 10vh repeat(2,35vh) 10vh;
+    grid-template-columns: repeat(2,35vh) 20vw;
     background-color: black;
 }
 
